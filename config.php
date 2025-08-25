@@ -4,9 +4,9 @@ return [
     'db' => [
         'host' => getenv('DB_HOST') ?: '127.0.0.1',
         'port' => getenv('DB_PORT') ?: '3306',
-        'name' => getenv('DB_NAME') ?: 'investgame',
-        'user' => getenv('DB_USER') ?: 'root',
-        'pass' => getenv('DB_PASS') ?: '',
+        'name' => getenv('DB_NAME') ?: 'stock_simulator',
+        'user' => getenv('DB_USER') ?: 'stock_simulator',
+        'pass' => getenv('DB_PASS') ?: 'xEJmPrxdxW8PdPMs',
         'charset' => 'utf8mb4',
     ],
     'app' => [
